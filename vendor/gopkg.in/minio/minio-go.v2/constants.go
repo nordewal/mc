@@ -23,7 +23,7 @@ package minio
 const minPartSize = 1024 * 1024 * 100
 
 // maxPartsCount - maximum number of parts for a single multipart session.
-const maxPartsCount = 10000
+const maxPartsCount = 20
 
 // maxPartSize - maximum part size 5GiB for a single multipart upload
 // operation.
@@ -39,4 +39,4 @@ const maxMultipartPutObjectSize = 1024 * 1024 * 1024 * 1024 * 5
 
 // optimalReadBufferSize - optimal buffer 5MiB used for reading
 // through Read operation.
-const optimalReadBufferSize = 1024 * 1024 * 5
+const optimalReadBufferSize = 1024 * 1024 * 50
